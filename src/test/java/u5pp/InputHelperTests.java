@@ -61,6 +61,7 @@ public class InputHelperTests {
         ih = new InputHelper(sc);
         assertFalse(ih.getYesNoInput(prompt));
         sc.close();
+
     }
 
     @Test
@@ -106,7 +107,6 @@ public class InputHelperTests {
     }
 
 
-    /* getIntegerInput tests */
 
     @Test
     public void getIntegerInput_correctInput_returnsCorrectly() {
@@ -196,4 +196,4 @@ public class InputHelperTests {
         }
     }
 
-}
+ }

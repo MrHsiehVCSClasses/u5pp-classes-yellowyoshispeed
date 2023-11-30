@@ -52,7 +52,7 @@ public class DiceTests {
     @Test
     void invalidStartedConstructorWorksCorrectly() throws Exception {
         int numSides = 3;
-        int startingSide = 4;
+        int startingSide = 5;
         Dice startedDice = new Dice(numSides, startingSide);
         
         assertAll("Default constructor and all accessors work correctly", 
